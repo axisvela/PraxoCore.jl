@@ -3,7 +3,7 @@
 Julia implementation of the PRAXO-CORE contract.
 
 - `SPEC_VERSION`: `0.2.0`
-- Core version: `0.5.0`
+- Core version: `0.6.0`
 - Tier: core
 - License: MIT
 - Dependency: JSON.jl
@@ -12,12 +12,14 @@ Julia implementation of the PRAXO-CORE contract.
 
 - Registry introduction: [REGISTRY.md](https://github.com/axisvela/praxo-core/blob/main/language/julia/REGISTRY.md)
 - Machine-readable entry: [llms.txt](https://github.com/axisvela/praxo-core/blob/main/language/julia/llms.txt) and [llms.md](https://github.com/axisvela/praxo-core/blob/main/language/julia/llms.md)
+- [Examples](https://github.com/axisvela/praxo-core/tree/main/language/julia/examples): runnable language-specific examples.
 - Coding-agent contract: [docs/getting-started/coding-agents.md](https://github.com/axisvela/praxo-core/blob/main/docs/getting-started/coding-agents.md)
-- Registry: [Julia General (pending)](https://github.com/axisvela/praxo-core-julia)
+- Registry: [Julia General (pending)](https://github.com/axisvela/PraxoCore.jl)
+- Community: [X](https://x.com/axisvela) · [Weibo](https://weibo.com/u/1936025761)
 
 ## Scope
 
-`0.5.0` implements all eleven conformance vector groups: tool-call parsing, JSON
+`0.6.0` implements all eleven conformance vector groups: tool-call parsing, JSON
 Schema, plugin manifests, memory, events, stream kinds, checkpoint envelopes,
 path policy, context budgets, middleware, and the agent loop. Non-streaming
 OpenAI-compatible, Anthropic, and Gemini model adapters, plus an OpenTelemetry
@@ -144,5 +146,5 @@ Local toolchain used by the repository maintainers lives at `D:\dev\julia`.
 
 ## Release
 
-Tag shape: `julia/v0.5.0`. The tag targets `SPEC_VERSION` `0.2.0`. The mirror `axisvela/praxo-core-julia` registers the package through
+Tag shape: `julia/v0.6.0`. The tag targets `SPEC_VERSION` `0.2.0`. The mirror `axisvela/praxo-core-julia` registers the package through
 JuliaRegistrator; see [PUBLISHING.md](PUBLISHING.md).
