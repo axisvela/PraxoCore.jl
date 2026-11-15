@@ -1,4 +1,4 @@
-# PRAXO-CORE Julia API 0.6.0
+# PRAXO-CORE Julia API 0.7.0
 # SPEC_VERSION 0.2.0
 
 AbstractMiddleware
@@ -21,6 +21,12 @@ FuncRetriever
 FuncTool
 GeminiModel
 HarmovelaSink
+INTERRUPT_APPROVE
+INTERRUPT_EDIT
+INTERRUPT_REJECT
+INTERRUPT_RESPOND
+Interrupt
+InterruptDecision
 Json
 JsonSchema
 McpClient
